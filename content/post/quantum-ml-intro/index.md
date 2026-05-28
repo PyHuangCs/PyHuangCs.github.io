@@ -6,6 +6,7 @@ image: cover.jpg
 categories: ["科研"]
 tags: ["Quantum Computing", "Quantum Architecture Search", "Blog"]
 description: "系统梳理量子线路搜索（QAS）的研究脉络：从问题定义、搜索策略分类、关键挑战到未来方向，附持续更新的文献阅读笔记。"
+math: true
 ---
 
 ## 1. 背景与动机
