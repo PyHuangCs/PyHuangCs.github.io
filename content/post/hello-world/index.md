@@ -3,8 +3,8 @@ title: "我的第一篇博客"
 slug: "hello-world"
 date: 2026-05-28T12:00:00+08:00
 image: cover.jpg
-categories: ["学习"]
-tags: ["Hugo", "博客", "LLM", "Agent"]
+categories: ["随笔"]
+tags: ["Blog"]
 description: "这是我的第一篇博客文章，记录使用 Hugo + Stack 主题搭建个人网站的过程。"
 ---
 
