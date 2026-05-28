@@ -1,6 +1,6 @@
 ---
-title: "量子机器学习研究方向介绍"
-slug: "quantum-ml-intro"
+title: "量子线路搜索研究（QAS, Quantum Architecture Search）"
+slug: "quantum-architecture-search"
 date: 2026-05-28T12:00:00+08:00
 image: cover.jpg
 categories: ["科研"]
