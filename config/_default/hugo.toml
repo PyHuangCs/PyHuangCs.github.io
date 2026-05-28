@@ -1,0 +1,13 @@
+baseURL                = "https://pyhuangcs.github.io/"
+locale                 = "zh-cn"
+title                  = "PyHuang's Site"
+theme                  = "stack"
+defaultContentLanguage = "zh"
+hasCJKLanguage         = true
+
+[pagination]
+    pagerSize = 5
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"

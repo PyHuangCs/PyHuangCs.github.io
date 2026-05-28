@@ -1,0 +1,7 @@
+[zh]
+    label  = "简体中文"
+    title  = "PyHuang's Site"
+    weight = 1
+
+    [zh.params.sidebar]
+        subtitle = "欢迎来到我的个人网站"
