@@ -5,6 +5,8 @@ slug: "about"
 
 ## 关于我
 
+![个人照片](photo.jpg)
+
 ### **基本信息**
 
 你好，我是 **Pei-Yuan Huang**。
