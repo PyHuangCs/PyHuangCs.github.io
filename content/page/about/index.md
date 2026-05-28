@@ -22,3 +22,4 @@ slug: "about"
 ## 联系我
 
 - GitHub: [PyHuangCs](https://github.com/PyHuangCs)
+- 邮箱: [pyhuang@mail.ustc.edu.cn](mailto:pyhuang@mail.ustc.edu.cn)

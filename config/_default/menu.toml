@@ -6,6 +6,14 @@
     [social.params]
         icon = "brand-github"
 
+[[social]]
+    identifier = "email"
+    name       = "邮箱"
+    url        = "mailto:pyhuang@mail.ustc.edu.cn"
+
+    [social.params]
+        icon = "mail"
+
 [[main]]
     identifier = "about"
     name       = "关于"
