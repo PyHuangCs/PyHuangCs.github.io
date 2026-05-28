@@ -12,7 +12,7 @@
     url        = "mailto:pyhuang@mail.ustc.edu.cn"
 
     [social.params]
-        icon = "mail"
+        icon = "messages"
 
 [[main]]
     identifier = "about"
