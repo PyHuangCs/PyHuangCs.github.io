@@ -6,6 +6,7 @@ image: cover.jpg
 categories: ["科研"]
 tags: ["Quantum Computing", "Quantum Architecture Search"]
 description: "一种基于图表示的动态蒙特卡洛树搜索的量子线路搜索架构"
+math: true
 ---
 
 > [!NOTE]
@@ -157,7 +158,7 @@ $$
   $$
   
 
-​	意思是：如果线路结构已经固定，那么就像训练普通神经网络一样，优化其中的参数 $\theta$，让训练集 loss 尽可能小。
+	意思是：如果线路结构已经固定，那么就像训练普通神经网络一样，优化其中的参数 $\theta$，让训练集 loss 尽可能小。
 
 - **外层优化线路结构**，给定一个量子线路结构 $\mathcal{A}$，先训练出最优参数 $\theta^{*}$，再训练结构：
   $$
