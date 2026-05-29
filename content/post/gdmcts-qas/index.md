@@ -149,28 +149,28 @@ $$
 
 所以完整流程其实是一个**双层优化问题**：
 
-- **内层优化线路参数**，给定一个量子线路结构 $\mathcal{A}$，我们先训练它的参数：
-  $$
-  \theta^{*}(\mathcal{A})
-  =
-  \arg\min_{\theta}
-  \mathcal{L}_{\mathrm{train}}(\theta,\mathcal{A})
-  $$
-  
+**内层优化线路参数**，给定一个量子线路结构 $\mathcal{A}$，我们先训练它的参数：
+$$
+\theta^{*}(\mathcal{A})
+=
+\arg\min_{\theta}
+\mathcal{L}_{\mathrm{train}}(\theta,\mathcal{A})
+$$
 
-	意思是：如果线路结构已经固定，那么就像训练普通神经网络一样，优化其中的参数 $\theta$，让训练集 loss 尽可能小。
 
-- **外层优化线路结构**，给定一个量子线路结构 $\mathcal{A}$，先训练出最优参数 $\theta^{*}$，再训练结构：
-  $$
-  \mathcal{A}^{*}
-  =
-  \arg\min_{\mathcal{A}\in\Omega}
-  \mathcal{L}_{\mathrm{val}}
-  \left(
-  \theta^{*}(\mathcal{A}), \mathcal{A}
-  \right)
-  $$
-  在验证集上评估它的效果，最后选择验证集表现最好的线路结构。
+意思是：如果线路结构已经固定，那么就像训练普通神经网络一样，优化其中的参数 $\theta$，让训练集 loss 尽可能小。
+
+**外层优化线路结构**，给定一个量子线路结构 $\mathcal{A}$，先训练出最优参数 $\theta^{*}$，再训练结构：
+$$
+\mathcal{A}^{*}
+=
+\arg\min_{\mathcal{A}\in\Omega}
+\mathcal{L}_{\mathrm{val}}
+\left(
+\theta^{*}(\mathcal{A}), \mathcal{A}
+\right)
+$$
+在验证集上评估它的效果，最后选择验证集表现最好的线路结构。
 
 ##  二、为什么不用传统蒙特卡洛树搜索？
 
